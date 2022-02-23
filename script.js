@@ -8,6 +8,7 @@ window.onload = function() {
                     clicou.click();
                   } else {
                     this.alert("Ué, tu quer mais não ? Uma massagem gostosinha ?");
+                    window.location.reload();
                   }
               } else {
                 this.alert("Então me manda uma msg com o horario pelo whats lindona");
