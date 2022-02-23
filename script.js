@@ -6,6 +6,8 @@ window.onload = function() {
                 if (confirm('Confirmado então, passo ai, e vou levar um creminho para te fazer uma massagem topzera')) {
                     var clicou = this.document.getElementById('link');
                     clicou.click();
+                  } else {
+                    this.alert("Ué tu quer mais não é uma massagem gostosinha ?");
                   }
               } else {
                 this.alert("Então me manda uma msg com o horario pelo whats lindona");
