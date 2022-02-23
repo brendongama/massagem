@@ -7,7 +7,7 @@ window.onload = function() {
                     var clicou = this.document.getElementById('link');
                     clicou.click();
                   } else {
-                    this.alert("Ué tu quer mais não é uma massagem gostosinha ?");
+                    this.alert("Ué, tu quer mais não ? Uma massagem gostosinha ?");
                   }
               } else {
                 this.alert("Então me manda uma msg com o horario pelo whats lindona");
